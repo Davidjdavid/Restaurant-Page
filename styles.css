@@ -1,0 +1,25 @@
+body {
+    background-color: yellow;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+#pageText {
+    display: inline-block;
+}
+
+img {
+    width: 200px;
+    border-radius: 5px;
+    float: right;
+
+}
+
+#pageTitle {
+    text-align: center;
+}
