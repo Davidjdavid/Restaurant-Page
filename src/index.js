@@ -24,10 +24,10 @@ menuBtn.addEventListener("click", ()=> {
 
 aboutBtn.addEventListener("click", ()=> {
     displayContainer.textContent = "";
-    displayContainer.appendChild(contactDiv);
+    displayContainer.appendChild(aboutDiv);
 })
 
 contactBtn.addEventListener("click", ()=> {
     displayContainer.textContent = "";
-    displayContainer.appendChild(aboutDiv);
+    displayContainer.appendChild(contactDiv);
 })
